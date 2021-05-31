@@ -60,6 +60,7 @@ let g:syntastic_quiet_messages = { "type": "style" }
 
 "--- NERDTreeToggle ---
 nmap ff :NERDTreeToggle<CR>
+let NERDTreeShowHidden = 1
 
 "--- FZF ---
 nmap <f5> :Files<CR>
@@ -67,3 +68,8 @@ nmap <f5> :Files<CR>
 "--- Tagbar ---
 nmap <f8> :TagbarToggle<CR>
 
+"--- UltiSnips ---
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
+let g:UltiSnipsExpandTrigger=",,"               
+let g:UltiSnipsJumpForwardTrigger="c-v"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"

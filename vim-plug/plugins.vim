@@ -1,6 +1,9 @@
 
 call plug#begin('~/.vim/plugged')
 
+" Snippets
+Plug 'SirVer/ultisnips'
+
 " Status Bar
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -17,6 +20,16 @@ Plug 'junegunn/fzf.vim'
 " In-file search
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/tagbar'
+
+" Icons for nerdtree
+Plug 'ryanoasis/vim-devicons'
+
+" Git plugins
+Plug 'airblade/vim-gitgutter'
+
+" JS and JSX highlighting
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 
 Plug 'tpope/vim-surround'
 Plug 'mattn/emmet-vim'
