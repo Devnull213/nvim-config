@@ -24,6 +24,9 @@ tnoremap <Esc> <C-\><C-n>
 " start terminal in insert mode
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 
+" Allow outside clipboard
+set mouse=a
+
 " open terminal on ctrl+n
 function! OpenTerminal()
   split term://bash
