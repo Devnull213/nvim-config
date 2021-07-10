@@ -7,3 +7,19 @@ def run():
 if __name__ == '__main__':
     run()
 endsnippet
+
+snippet unit
+#!/usr/bin/env python3
+
+import unittest
+import {module}
+
+class {module}_test(unittest.TestCase):
+    
+    def test_{functionName}(self):
+	self assertEqual({module}.{function}(), {expected})
+
+
+if __name__ == '__main__':
+    unittest.main()
+endsnippet

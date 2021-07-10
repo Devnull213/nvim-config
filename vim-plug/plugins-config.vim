@@ -70,6 +70,6 @@ nmap <f8> :TagbarToggle<CR>
 
 "--- UltiSnips ---
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger=",,"               
+let g:UltiSnipsExpandTrigger="./"               
 let g:UltiSnipsJumpForwardTrigger="c-v"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
