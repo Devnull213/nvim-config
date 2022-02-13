@@ -1,11 +1,15 @@
 snippet init
 #!/usr/bin/env python3
 
-def run():
+import time
+
+def main():
     pass
 
 if __name__ == '__main__':
-    run()
+    s = time.perf_counter()
+    main()
+    elapsed = time.perf_counter() - s
 endsnippet
 
 snippet unit
